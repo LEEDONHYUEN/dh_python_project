@@ -1,3 +1,4 @@
+
 #
 # # print("Hello world")
 # #
@@ -221,14 +222,142 @@
 #     if a>list[i]:   #for i in range(100)
 #         a=list[i]
 # print(a)#for a in range(1)
-#wntjrcjfl
 #for i in random.range(5)
-b=input()
-print(len(b))
-for i in range(len(b)):
-    print(b[len(b)-(i+1)])
+# b=input()
+# print(len(b))
+# for i in range(len(b)):
+#     print(b[len(b)-(i+1)])
+# import random
+# def login(x,y):
+#     z= x+y
+# result = login(3 , 2 )
+# g=[]
+# for i in range(10):
+#     g.append(random.randrange(10))
+# def logon(x,y):
+# def make_random_list():
+# a=[]
+# def find_max_value(a):
+#     max_value = a[0]
+#     for i in range(len(a)):
+#         if max_value < a[i]:
+#             max_value = a[i]
+#             max_value = a[i]
+#     return max_value
+# import random
+# list = [ "r" , "s" , "p" ]
+# random.randrange(list)
+# for i in(len(list)):
+#     if "r"+"s"==200
+#     if "s"+"p"==200
+#     if "p"+"r"==200
+# temp_attemp(list)
+# def find_max_value(a):
+#     max_value = b[0]
+#     for i in range(len(b)):
+#         if max_value < b[i]:
+#             max_value = b[i]
+#             max_value = b[i]
+#     return max_value
+# import random
+# # h = ["r" , "s" , "p"]
+# b= input()
+# c=
+#
+# for i in range(1):
+#     a=random.randrange(1)
+# user_coin=600
+# com_coin=600
+# user_enter=input("enter r,s,p")
+#
+# #내가 가지고 시작한 점수가 600
+# #컴퓨터에 할당된 점수가 500
+# #가위바위보 1경기로 얻는 점수가 200
+# #즉 가위바위보를 3판 정도는 거쳐야 할당된 점수를 완전히 바닥낼 수 있다.
+# for i in range(3):
+#     comter_enter=random.randrange(0,3)
+#     if comter_enter == 0:
+#         comter_enter = 'r'
+#     elif comter_enter ==1:
+#         comter_enter= "s"
+#     elif comter_enter ==2:
+#         comter_enter= "p"
+#     if comter_enter==user_enter:
+#         print("무승부")
+
+
+def make_map():
+
+    tic_map = [" " for i in range(9)]
+    '''
+    tic_map = []
+    for i in range(9):
+        tic_map.append(0)
+    '''
+
+    return tic_map
+
+# def put_abatar(tic_map):
+#    while true:
+#      pos= int(input("Enter your ldcation : "))
+#      if tic_map[pos] == " ":
+#          tic_map[pos] = "x"
+#          return tic_map
+def make_map():
+
+    tic_map = [" " for i in range(9)]
+    '''
+    tic_map = []
+    for i in range(9):
+        tic_map.append(0)
+    '''
+
+    return tic_map
+aser=make_map()
+
+def print_map(tic_map):
+    print("-------")
+    print(tic_map[0]+"ㅣ"+tic_map[1]+"ㅣ"+tic_map[2])
+    print("-------")
+    print(tic_map[3]+"ㅣ"+tic_map[4]+"ㅣ"+tic_map[5])
+    print("-------")
+    print(tic_map[6]+"ㅣ"+tic_map[7]+"ㅣ"+tic_map[8])
+print_map(aser)
+
+def put_abatar(tic_map):
+     pos= int(input("Enter your ldcation : "))
+     if tic_map[pos] == " ":
+         tic_map[pos] = "x"
+
+         return tic_map
+aser=put_abatar
+
+def put_AI(tic_map):
+    import random
+    pos= random.randrange(9)
+    if tic_map[pos] == "o":
+         tic_map[pos] = "x"
+         return tic_map
 
 
 
 
 
+
+
+# if tic_map[pos]=["x", "o"]=("you can't put your man")
+#
+# import random
+# i
+# lill = ["o" , "x"]
+# i=input()
+# tic_map[i]="o"
+# random.randrange(lill)\
+# r=  "[0][1][2]"
+# p=  "[3][4][5]"
+# e=  "[6][7][8]"
+# # [0][1][2]
+# # [3][4][5]
+# # [6][7][8]
+# print(r+p+e)
+# print("tic tac toe")
