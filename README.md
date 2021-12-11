@@ -26,3 +26,11 @@ basic7_importrandom.py
 basic8_최댓값최솟값.py
 
 basic9_while문으로하는별찍기.py
+
+-게임-
+
+게임1_tic게임.py
+
+게임2_가위바위보.py
+
+게임3_랜덤hp게임.py
